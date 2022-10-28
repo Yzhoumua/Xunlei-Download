@@ -1,0 +1,414 @@
+.box{
+    width: 1200px;
+}
+header{
+    position: relative;
+    z-index: 3;
+    
+}
+header .navandlogo{
+    line-height: 59px;
+}
+header .navandlogo h1 img{
+    width: 74px;
+    height: 29px;
+}
+header .navandlogo nav{
+    width: 860px;
+    height: 60px;
+}
+header .navandlogo nav li{
+    height: 59px;
+    display:inline-block;
+  
+}
+header .navandlogo nav li{
+    
+}
+.active{
+    border-bottom: 2px #fff solid;
+}
+header .navandlogo nav li a{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 10px;
+    color: #fff;
+}
+.content{
+    position: relative;
+    background-image: url(../images/banner_bg.jpg);
+    margin:-168px 0 0 0;
+    z-index: 2;
+    width: 100%;
+    height: 1080px;
+}
+header:hover{
+    background-color: black;
+}
+.content .diqiubox{
+    width: 730px;
+    height: 730px;
+}
+.content .diqiubox .diqiu{
+    overflow: hidden;
+    width: 730px;
+    height: 730px;
+    background-image: url(../images/earth01.png);
+}
+.content .diqiubox .diqiu .xunlei11{
+    margin: 0 auto;
+    margin-top:110px;
+    width: 160px;
+    height: 160px;
+    background-image: url(../images/spr_bannerTab.png);
+}
+.content .diqiubox .diqiu h2{
+   text-align: center;
+   font-size: 66px;
+}
+.content .diqiubox .diqiu h2 a{
+    color:#fff
+}
+.content .diqiubox .diqiu p{
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 25px;
+    text-align:center;
+}
+.content .diqiubox .diqiu button:focus{
+    outline: none;
+}
+.content .diqiubox .diqiu button{
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    height: 60px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    margin: 30px 0 0 236px;
+    background: rgba(2, 82, 136, 0.39);
+}
+.content .diqiubox .diqiu button:hover{
+    background: rgba(190, 194, 197, 0.39);
+}
+.content .diqiubox .lunkuo{
+    position: absolute;
+}
+.content .diqiubox .lunkuo .lunkuo1{
+    position: absolute;
+    top: 74px;
+    height:818px;
+    width:725px;
+    display: block;
+   background-image: url(../images/spr_bannerPathway.png);
+   background-position: 725px 100px;
+
+}
+.content .diqiubox .lunkuo .lunkuo2{
+    width: 1000px;
+    display: block;
+    height: 1000px;
+   background-image: url(../images/spr_bannerPathway.png);
+}
+.content .xiazai{
+    width: 450px;
+    height: 110px;
+    margin-top: 216px;
+}
+.content .xiazai nav li{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+.content .xiazai nav li a{
+    display: block;
+}
+.content .xiazai nav .xunlei1{
+    background-position: -246px -330px;
+    background-image: url(../images/spr_bannerTab.png);
+}
+.content .xiazai nav .xunlei2{
+    margin-left:66px;
+    background-position: -478px -105px;
+    background-image: url(../images/spr_bannerTab.png);
+}
+.content .xiazai nav .xunlei3{
+    background-position: -478px -315px;
+    background-image: url(../images/spr_bannerTab.png);
+}
+
+.xzboxbj{
+    width: 100%;
+    background: #080325;
+}
+.xzboxbj .xzbox .xzxlbox{
+    width: 580px;
+    height: 590px;
+    background-image: url(../images/product01.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.xzboxbj .xzbox .xzxlbox1{
+    width: 580px;
+    height: 590px;
+}
+.xzboxbj .xzbox .xzxlbox .xllogo a{
+    display: block;
+    width: 118px;
+    height: 110px;
+    background-image: url(../images/spr_bannerTab.png);
+    background-position: -330px -190px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.xzboxbj .xzbox .xzxlbox p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.xzboxbj .xzbox .xzxlbox button,.xzboxbj .xzbox .xzxlbox1 .xlyy button{
+    width: 200px;
+    height: 55px;
+    display: block;
+ margin: 0 auto;
+    border: solid 1px #fff;
+    color: #fff;
+    margin-top: 80px;
+    border-radius: 30px;
+    background: rgba(216, 208, 208, 0);
+}
+.xzboxbj .xzbox .xzxlbox button:focus,.xzboxbj .xzbox .xzxlbox1 .xlyy button:focus{
+    outline: none;
+}
+.xzboxbj .xzbox .xzxlbox button:hover,.xzboxbj .xzbox .xzxlbox1 .xlyy button:hover{
+    background: rgba(255, 255, 255, 0.301);
+}
+.xzboxbj .xzbox .xzxlbox1 .xlyy{
+    overflow: hidden;
+    width: 580px;
+    height: 345px;
+    border-radius: 20px;
+    background-image: url(../images/product03.jpg);
+    background-size: 100% 100%;
+}
+.xzboxbj .xzbox .xzxlbox1 .xlyy .xxyylogo a{
+    display: block;
+   width: 118px;
+   height: 100px;
+   background-image: url(../images/spr_bannerTab.png);
+   background-position: -123px -333px;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.xzboxbj .xzbox .xzxlbox1 .xlyy .xxyylogo p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.xzboxbj .xzbox .xzxlbox1 .xlyy button{
+    margin-top:60px;
+
+}
+.xzboxbj .xzbox .xzxlbox1 .gdbox{
+    margin-top: 20px;
+    width: 580px;
+    height: 224px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #2a0070, #2a0070 47%, #5e0eb0)
+}
+.xzboxbj .xzbox .xzxlbox1 .gdbox a{
+    color: #fff;
+    font-size: 20px;
+    display:inline-block;
+    text-align: center;
+    line-height: 224px;
+    width: 580px;
+}
+.xzboxbj .xzbox .xzxlbox1 .gdbox a:hover{
+    text-decoration: underline;
+}
+.xzboxbj h2{
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.xzboxbj .zxbox .zxzlbox p{
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.xzboxbj .xxjs{
+   text-align:  center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.yunbox{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/onething.jpg);
+}
+.yunbox .yun nav li{
+    display: inline-block;
+    width: 392px;
+    height: 400px;
+    background: rgba(46,56,223,.4);
+    border-radius: 20px;
+    margin-right:7px;
+    margin-top: 50px;
+}
+.yunbox .yun nav li:last-child{
+    margin-right: 0;
+}
+.yunbox .yun nav li a{
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.yunbox .yun nav li a span{
+    display: inline-block;
+    width: 152px;
+    height: 90px;
+    background-image: url(../images/spr_bannerTab.png);
+}
+.yunbox .yun nav li a .yun1{
+    background-position: -330px -95px;
+}
+.yunbox .yun nav li a .yun2{
+    background-position: -165px -165px;
+}
+.yunbox .yun nav li a .yun3{
+    background-position: -330px 0px;
+}
+.yunbox .yun nav li a h2{
+    margin-top: 110px;
+}
+.yunbox .yun nav li a p{
+    margin-top: 30px;
+}
+.yunbox .yun nav li a span{
+    margin-top: 50px;
+}
+
+.xxzp{
+    width: 100%;
+    height: 500px;
+    background: rgb(8, 3, 37);
+    overflow: hidden;
+}
+.xxzp h2{
+    margin-top: 90px;
+    height: 66px;
+    text-align: center;
+    color: #fff;
+    font-size:44px;
+}
+.xxzp .zptp a{
+    display: block;
+    width: 1192px;
+    height: 256px;
+    background-image: url(../images/job01.jpg);
+    margin-top: 30px;
+}
+footer {
+    background: #000;
+}
+footer div .gynav{
+    height: 90px;
+    width: 1200px;
+    border-bottom: 1px solid #333333;
+}
+footer div .gynav nav{
+    width: 615px;
+}
+footer div .gynav nav li{
+    display:inline-block;
+    line-height: 90px;
+    padding: 0 10px;
+}
+footer div .gynav nav li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+footer div .gynav nav li a:hover{
+    text-decoration: underline;
+}
+footer div .gynav .icon a{
+    display:inline-block;
+    width: 21px;
+    height: 17px;
+    background-image: url(../images/spr_common.png);
+    margin-top:39px;
+    margin-left: 20px;
+}
+footer div .gynav .icon .icon1{
+    background-position: -195px -141px;
+}
+footer div .gynav .icon .icon2{
+    background-position: -225px -177px;
+}
+footer {
+    color: rgb(153, 151, 151);
+    font-size: 12px;
+}
+footer .start{
+    margin-top: 30px;
+}
+footer div a{
+    color: rgb(153, 151, 151);
+}
+footer div a:hover{
+    text-decoration: underline;
+}
+footer .beian nav li{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+}
+footer .beian nav li a .beianicon{
+    margin-top: 10px;
+    display:inline-block;
+    width: 45px;
+    height: 42px;
+    background-image: url(../images/spr_common.png);
+}
+footer .beian nav li a span{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.shubiao1{
+   vertical-align: 17px;
+}
+footer .beian nav li a .beianicon1{
+    background-position:0px -177px ;
+}
+footer .beian nav li a .beianicon2{
+    background-position:-45px -177px;
+}
+footer .beian nav li a .beianicon3{
+    background-position:-90px -177px;
+}
+footer .beian nav li a .beianicon4{
+    background-position:-135px -177px;
+}
+footer .beian nav li a .beianicon5{
+    background-position:-180px -177px;
+}
+footer .beian nav li a .shubiao:hover{
+    text-decoration: underline;
+}
